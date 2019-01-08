@@ -30,7 +30,9 @@ the function that correlates to **User Event 1** will be second, etc.
 In your code, you may then call your function and its arguments in *one of three ways*:
 
 *METHOD 1*: `f("my_custom_function('a string argument',1,2.532,true)");`
+
 *METHOD 2*: `f("my_custom_function",["a string argument",1,2.532,true]);`
+
 *METHOD 3*: `f("my_custom_function","a string argument",1,2.532,true);`
 
 You will then write your custom function code in the respective **User Event**. The only
